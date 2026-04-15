@@ -2,6 +2,8 @@
 
 My interactive terminal portfolio. This is a command-line alternative to my main web portfolio.
 
+https://github.com/user-attachments/assets/e5ccb60b-6152-4897-bcf2-e28a54f32a0f
+
 ## Quick Start
 
 You do not need to install anything. Just open your terminal and run (requires Node.js):
