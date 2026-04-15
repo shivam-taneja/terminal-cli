@@ -1,6 +1,6 @@
 {
   "name": "shivamtaneja",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Interactive terminal portfolio (CLI companion to shivamtaneja.com)",
   "packageManager": "pnpm@9.15.9",
   "type": "module",
