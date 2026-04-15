@@ -16,6 +16,8 @@
     "start": "node dist/index.js",
     "lint": "eslint .",
     "format": "prettier --write .",
+    "local:link": "pnpm run build && pnpm link --global",
+    "local:unlink": "pnpm remove -g shivamtaneja",
     "prepublishOnly": "pnpm run build"
   },
   "engines": {
