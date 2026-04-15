@@ -28,6 +28,14 @@
     "portfolio",
     "terminal"
   ],
+  "homepage": "https://github.com/shivam-taneja/terminal-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam-taneja/terminal-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivam-taneja/terminal-cli/issues"
+  },
   "author": "Shivam Taneja",
   "license": "MIT",
   "dependencies": {
