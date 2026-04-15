@@ -1,12 +1,3 @@
-import chalk from "chalk";
+import { runTerminalApp } from "./app/runTerminalApp.js";
 
-function main(): void {
-  console.log(
-    chalk.cyan.bold("shivamtaneja"),
-    chalk.dim("(terminal portfolio — scaffold)"),
-  );
-
-  console.log(chalk.dim("Replace this with your interactive shell."));
-}
-
-main();
+void runTerminalApp();

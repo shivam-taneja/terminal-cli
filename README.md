@@ -21,6 +21,14 @@ pnpm build        # emit dist/ for the published CLI
 pnpm start        # run built output
 ```
 
+## CLI Commands
+
+Once inside the CLI, use:
+
+```text
+help, home, about, experience, projects, mentorship, certifications, contact, clear, exit
+```
+
 **Local global install** (test the CLI like a published package):
 
 ```bash
@@ -32,4 +40,16 @@ When you are finished testing, remove the global install (plain `pnpm unlink` do
 
 ```bash
 pnpm run local:unlink    # same as: pnpm remove -g shivamtaneja
+```
+
+## Project Structure
+
+```text
+src/
+  app/         # runtime loop + screen renderers
+  commands/    # command registry + aliases
+  data/        # website portfolio content source
+  domain/      # shared types
+  lib/         # small text utilities
+  ui/          # terminal window + theme helpers
 ```
