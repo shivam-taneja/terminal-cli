@@ -2,6 +2,14 @@
 
 My interactive terminal portfolio. This is a command-line alternative to my main web portfolio.
 
+## Quick Start
+
+You do not need to install anything. Just open your terminal and run (requires Node.js):
+
+```bash
+npx shivamtaneja
+```
+
 ## Development
 
 This repo uses [pnpm](https://pnpm.io/). Node.js 18+ is required.
